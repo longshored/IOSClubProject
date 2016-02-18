@@ -15,6 +15,8 @@
 		BD60F9531C753D5A009911FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD60F9511C753D5A009911FD /* LaunchScreen.storyboard */; };
 		BD60F95E1C753D5A009911FD /* IOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD60F95D1C753D5A009911FD /* IOSProjectTests.m */; };
 		BD60F9691C753D5A009911FD /* IOSProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD60F9681C753D5A009911FD /* IOSProjectUITests.m */; };
+		BD60F9781C754F87009911FD /* Counter VC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD60F9771C754F86009911FD /* Counter VC.m */; };
+		BD60F97B1C754F9F009911FD /* TotalCount VC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD60F97A1C754F9F009911FD /* TotalCount VC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		BD60F9641C753D5A009911FD /* IOSProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD60F9681C753D5A009911FD /* IOSProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSProjectUITests.m; sourceTree = "<group>"; };
 		BD60F96A1C753D5A009911FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD60F9761C754F86009911FD /* Counter VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Counter VC.h"; sourceTree = "<group>"; };
+		BD60F9771C754F86009911FD /* Counter VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Counter VC.m"; sourceTree = "<group>"; };
+		BD60F9791C754F9F009911FD /* TotalCount VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TotalCount VC.h"; sourceTree = "<group>"; };
+		BD60F97A1C754F9F009911FD /* TotalCount VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TotalCount VC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				BD60F9491C753D5A009911FD /* ViewController.h */,
 				BD60F94A1C753D5A009911FD /* ViewController.m */,
 				BD60F94C1C753D5A009911FD /* Main.storyboard */,
+				BD60F9761C754F86009911FD /* Counter VC.h */,
+				BD60F9771C754F86009911FD /* Counter VC.m */,
+				BD60F9791C754F9F009911FD /* TotalCount VC.h */,
+				BD60F97A1C754F9F009911FD /* TotalCount VC.m */,
 				BD60F94F1C753D5A009911FD /* Assets.xcassets */,
 				BD60F9511C753D5A009911FD /* LaunchScreen.storyboard */,
 				BD60F9541C753D5A009911FD /* Info.plist */,
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD60F97B1C754F9F009911FD /* TotalCount VC.m in Sources */,
+				BD60F9781C754F87009911FD /* Counter VC.m in Sources */,
 				BD60F94B1C753D5A009911FD /* ViewController.m in Sources */,
 				BD60F9481C753D5A009911FD /* AppDelegate.m in Sources */,
 				BD60F9451C753D5A009911FD /* main.m in Sources */,
