@@ -47,7 +47,7 @@
         <!--Counter-->
         <scene sceneID="mvM-hB-9AE">
             <objects>
-                <viewController id="rDZ-V8-FsU" sceneMemberID="viewController">
+                <viewController id="rDZ-V8-FsU" customClass="Counter_VC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Vs-cb-b6t"/>
                         <viewControllerLayoutGuide type="bottom" id="tmV-mz-arp"/>
@@ -84,6 +84,9 @@
                                     <constraint firstAttribute="height" constant="80" id="hKz-4r-lui"/>
                                 </constraints>
                                 <state key="normal" title="START"/>
+                                <connections>
+                                    <action selector="startPressed" destination="rDZ-V8-FsU" eventType="touchUpInside" id="8GX-zH-8dV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vfg-Y1-ycL">
                                 <rect key="frame" x="70" y="230" width="80" height="80"/>
@@ -92,6 +95,9 @@
                                     <constraint firstAttribute="width" constant="80" id="imy-Na-fVj"/>
                                 </constraints>
                                 <state key="normal" title="STOP"/>
+                                <connections>
+                                    <action selector="cancelPressed" destination="rDZ-V8-FsU" eventType="touchUpInside" id="ch4-B2-FXd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -115,6 +121,11 @@
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Counter" id="UPl-Oc-cm5"/>
+                    <connections>
+                        <outlet property="cancelButton" destination="vfg-Y1-ycL" id="ndv-UP-Ekq"/>
+                        <outlet property="startButton" destination="M3l-9y-Bro" id="1Ul-Na-AqG"/>
+                        <outlet property="timerLabel" destination="KYM-sz-r7a" id="fKE-Db-yp9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kpM-Wo-QrJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -123,7 +134,7 @@
         <!--Counter-->
         <scene sceneID="jb3-93-i1b">
             <objects>
-                <viewController id="q21-xa-qR8" sceneMemberID="viewController">
+                <viewController id="q21-xa-qR8" customClass="TotalCount_VC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dbW-Yk-7cw"/>
                         <viewControllerLayoutGuide type="bottom" id="CVY-87-vWh"/>
